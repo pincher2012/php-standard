@@ -83,11 +83,14 @@
 
         <!-- несколько значений в однострочном массиве -->
         <exclude name="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
-        
+
         <!-- знак препинания в конце однострочного комментария -->
         <exclude name="Squiz.Commenting.InlineComment.InvalidEndChar"/>
-        
+
         <!-- пробел между : и ) в конструкции if (condition): -->
-        <exclude name="PEAR.ControlStructures.MultilineCondition.SpaceBeforeOpenBrace"/>
+        <exclude name="PEAR.ControlStructures.MultiLineCondition.SpaceBeforeOpenBrace"/>
+        
+        <!-- ключ в объявлении массива без ключей -->
+        <exclude name="Squiz.Arrays.ArrayDeclaration.KeySpecified"/>
     </rule>
 </ruleset>
